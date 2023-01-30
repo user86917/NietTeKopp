@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+$color1 :rgb(236, 108, 22);
+
 body{
     background-color: blue;
     position: relative; 
@@ -16,19 +20,31 @@ body{
 
         header{
             
-            margin-top:0;
-            width: 94%;
-            clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
+            margin-top: 2%;
+            width: 90%;
+            background-color: $color1;
+            
             margin-left: 5%;
-            border-radius: 5px 0px 0px 5px;
+            border-radius: 5px 5px 5px 5px;
             margin-bottom: 20px;
-           
-            a{
-                font-size: 52px;
-                font-family: 'Righteous', cursive;
-                text-decoration: underline;
-                color: black;
+            border: 5px solid $color1;
+
+            .header_dex{
+                height: 100%;
+                width: 100%;
+                // clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
+                clip-path: ellipse(91% 71% at 8% 67%);
+                border-radius: 5px 0px 0px 5px;
+                
+               a{
+                    font-size: 52px;
+                    font-family: 'Roboto', sans-serif;
+                    text-decoration: underline;
+                    color: black;
+                } 
             }
+           
+            
         }
 
     }

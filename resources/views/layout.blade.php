@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Damn! It's a chair">
+    <meta name="description" content="Damn! It's a nummber">
     <title>Chair | Get a Chair</title>
 
     <!-- icon -->
@@ -25,6 +25,6 @@
 </head>
 <body class=" bg-white" >
     @include('components.navbar')
-    @yield('Falko_branch')
+    @yield('main')
 </body>
 </html>
