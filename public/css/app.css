@@ -1,37 +1,118 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 body {
-  background-color: blue;
   position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: #ffffff;
 }
 body .home_dex {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   position: relative;
 }
 body .home_dex header {
-  margin-top: 2%;
-  width: 90%;
-  background-color: rgb(236, 108, 22);
+  margin-top: 0;
+  width: 94%;
+  -webkit-clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
+          clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
   margin-left: 5%;
-  border-radius: 5px 5px 5px 5px;
-  margin-bottom: 20px;
-  border: 5px solid rgb(236, 108, 22);
-}
-body .home_dex header .header_dex {
-  height: 100%;
-  width: 100%;
-  -webkit-clip-path: ellipse(91% 71% at 8% 67%);
-          clip-path: ellipse(91% 71% at 8% 67%);
   border-radius: 5px 0px 0px 5px;
+  margin-bottom: 20px;
 }
-body .home_dex header .header_dex a {
+body .home_dex header a {
   font-size: 52px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Righteous", cursive;
   text-decoration: underline;
   color: black;
+}
+body .home_dex .entree_welkom {
+  width: 95%;
+  height: 150px;
+  margin-left: 5%;
+  font-family: "Righteous", cursive;
+  -webkit-clip-path: polygon(0 0, 25.5% 0, 35.5% 100%, 0% 100%);
+          clip-path: polygon(0 0, 25.5% 0, 35.5% 100%, 0% 100%);
+  border-radius: 5px;
+  z-index: 9999;
+  float: left;
+}
+body .home_dex .entree_info {
+  margin-top: 4%;
+  width: 95%;
+  margin-left: 5%;
+  font-family: "Righteous", cursive;
+  -webkit-clip-path: polygon(0 0, 40% 0, 51.5% 100%, 0% 100%);
+          clip-path: polygon(0 0, 40% 0, 51.5% 100%, 0% 100%);
+  border-radius: 5px;
+  float: left;
+  z-index: 9999;
+}
+body .home_dex .entree_toevoegen {
+  margin-top: 4%;
+  width: 95%;
+  margin-left: 5%;
+  font-family: "Righteous", cursive;
+  -webkit-clip-path: polygon(0 0, 56% 0, 65.5% 100%, 0% 100%);
+          clip-path: polygon(0 0, 56% 0, 65.5% 100%, 0% 100%);
+  border-radius: 5px;
+  float: left;
+  z-index: 9999;
+}
+body .home_dex .entree_toevoegen h3 {
+  float: left;
+  padding-right: 10%;
+}
+body .home_dex .entree_toevoegen button {
+  padding: 0.7%;
+  width: 35%;
+  border-color: rgba(240, 248, 255, 0);
+  -webkit-clip-path: polygon(0 0, 88% 0, 98% 100%, 0% 100%);
+          clip-path: polygon(0 0, 88% 0, 98% 100%, 0% 100%);
+  border-radius: 5px;
+}
+body .home_dex .home_img {
+  margin-left: 33%;
+  width: 60%;
+  height: 610px;
+  position: absolute;
+  float: right;
+  -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 62% 100%);
+          clip-path: polygon(0% 0, 100% 0, 100% 100%, 62% 100%);
+  border-radius: 0px 5px 5px 0px;
+  background-image: url(../img/cffe.jpg);
+  overflow: hidden;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .baas_intro {
+  width: 100%;
+  height: 500px;
+}
+body .baas_intro .baas_text {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 7%;
+  padding-left: 16%;
+  background-color: rgba(13, 202, 240, 0.1960784314);
+}
+body .baas_intro .baas_image {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: rgba(13, 202, 240, 0.1960784314);
+}
+body .baas_intro .profiel_image {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/serge-groot.png);
+}
+body .footerdenk {
+  width: 100%;
+  height: 400px;
+  background-color: black;
 }/*# sourceMappingURL=app.css.map */
