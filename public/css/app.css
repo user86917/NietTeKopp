@@ -35,7 +35,7 @@ body .home_dex header .navlink {
   text-decoration: none;
 }
 body .home_dex .entree_balk1 {
-  margin-top: 2%;
+  margin-top: 2.5%;
   width: 95%;
   height: 150px;
   margin-left: 5%;
@@ -87,7 +87,7 @@ body .home_dex .home_img {
   margin-left: 32.5%;
   width: 60%;
   height: 625px;
-  margin-top: 2%;
+  margin-top: 2.5%;
   position: absolute;
   float: right;
   -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 62% 100%);
