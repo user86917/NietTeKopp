@@ -12,15 +12,25 @@
 </div> --}}
 
 <div class="home_dex bg-white" >
-  <header class="bg-primary mt-4 ps-4 pb-3 pt-3"> <a class="text-dark " href="/">WholeSale</a>
-     
+  <header class="bg-primary mt-4 ps-4 pb-5 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
+    <a href="/  " class=" navlink me-5  ps-5 text-white">Home</a>
+    <a href="#over ons " class="navlink me-5  ps-5 text-white">over ons</a>
+    <a href="#login " class="navlink  me-5  ps-5 text-white">login</a>
+    <a href="#Aplicate " class="navlink me-5  ps-5 text-white">applicate</a>
   </header>
+ 
   
- <div class="entree_welkom  pt-5  bg-info"><h1 class="text-dark ps-5 " >Welkom</h1></div>
- <div class="entree_info text-white px-4 pt-4 bg-primary "><h3 class="ps-4">info</h3><p class="ps-4">We willen je laten zien hoe geweldig tweedehands kan zijn. <br/>Verkoop de kleding die niet meer bij je past.<br/> Vind artikelen die je niet in de winkelstraat vindt.<br/> Vinted is voor iedereen die vindt dat goede kleding een lang leven verdient</p></div>
- <div class="entree_toevoegen px-4 pb-5 pt-4   bg-info"><h3 class="ps-4 mt-4">NavBar</h3> <button class=" ps-3 pe-5 mt-4 bg-primary text-white "  >nav</button> </div>
+ <div class="entree_balk1  pt-5  bg-info"><h1 class="text-white ps-5 " ></h1></div>
+ <div class="entree_balk2  px-4 pt-4 bg-primary "><h3 class="ps-4 text-white"></h3><p class="ps-4 text-dark">
+  
+</div>
+ <div class="entree_balk3 px-4 pb-5 pt-4   bg-info"><h3 class="ps-4 mt-4"></h3>  </div>
 
-   <div class="home_img bg-primary "></div>
+   <div class="home_img bg-primary ">
+    {{-- nieuwe img zoeken --}}
+   </div>
+   <div class="contactform">
+   </div>
    
 </div>
 
