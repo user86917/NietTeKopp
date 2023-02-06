@@ -14,7 +14,7 @@
 <div class="home_dex bg-white" >
   <header class="bg-primary mt-4 ps-4 pb-5 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
     <a href="/  " class=" navlink me-5  ps-5 text-white">Home</a>
-    <a href="#over ons " class="navlink me-5  ps-5 text-white">over ons</a>
+    <a href="#over-ons " class="navlink me-5  ps-5 text-white">over ons</a>
     <a href="#login " class="navlink  me-5  ps-5 text-white">login</a>
     <a href="#Aplicate " class="navlink me-5  ps-5 text-white">applicate</a>
   </header>
@@ -29,12 +29,30 @@
    <div class="home_img bg-primary ">
     {{-- nieuwe img zoeken --}}
    </div>
-   <div class="contactform">
-   </div>
+   <div class="contactform ">
+    <div class="uitleg ">
+   <h2 class="text-primary " >Waar kunnen wij u mee helpen</h2>
+   <p class="text-black">Met onze telefonie krijg je de mogelijkheid om te bellen via je mobiel of met je laptop.
+    Bepaal zelf op welke dagen en tijden jouw klanten je telefonisch kunnen bereiken. <br>
+    Verwelkom je klanten met een handige welkomstboodschap of keuzemenu.</p>
+  
+
+  </div>
+   @include('components.contactform')
+
    
 </div>
 
-<div class="baas_intro bg-white">
+
+
+  
+
+
+   
+
+</div> 
+
+<div class="baas_intro bg-white  ">
 
   <div class="baas_text ">
       <h3 class="text-dark">Optimaal bereikbaar zijn op je </h3>
@@ -42,17 +60,37 @@
       <p>Zakelijk bereikbaar zijn voor een gigantisch voordelige prijs, dat is waar <br> wij ons op focussen. Voor slechts € 9,95 per jaar ben je al bereikbaar op <br> een eigen nummer. Ons portaal biedt alle mogelijkheden, zonder <br> technische kennis.</p>
   </div>
 
-      <div class="baas_image ">
-        <div class="profiel_image"></div>
+      <div class="baas_image  ">
+        <div class="profiel_image  "></div>
       </div>
 
     </div>
-    <div class="footerdenk bg-info"></div>
-
-  
-
-@include('components.navbar')
-   
-
-{{-- </div> --}}
+    <div class="meerinfo bg-dark  p-5 mt-5">
+      <div class="grid-container  ">
+        <div class="grid-item border-info"><p class="text-white" >
+          Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:
+          Zorg ervoor dat alle woorden goed gespeld zijn.
+          Probeer andere zoektermen.
+          Maak de zoektermen algemener.
+          </p> </div>  
+        <div class="grid-item border-info"><p> img</p></div>
+        <div class="grid-item border-info"><p> img</p></div>
+        <div class="grid-item border-info "><p> Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:
+          Zorg ervoor dat alle woorden goed gespeld zijn.
+          Probeer andere zoektermen.
+          Maak de zoektermen algemener.</p></div>  
+        <div class="grid-item border-info"><p> Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:
+          Zorg ervoor dat alle woorden goed gespeld zijn.
+          Probeer andere zoektermen.
+          Maak de zoektermen algemener.</p></div>
+        <div class="grid-item border-info"><p>img</p></div>
+        
+        
+       
+      </div>
+    </div>
+    {{-- <div class="footerdenk bg-info"></div> --}}
 @endsection

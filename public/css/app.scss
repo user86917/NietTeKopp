@@ -44,10 +44,15 @@ body{
             
            }
            .navlink{
+            margin-top: 90%;
             padding-bottom: 0%;
             font-size: 22px;
             text-decoration: none;
             //float: right;
+
+            a{
+                
+            }
             
         }
             
@@ -100,22 +105,12 @@ body{
             //position: absolute;
             margin-bottom: 1%;
             height: 144.09px;
+            margin-bottom: 4%;
            
             
             
-            h3{
-                float: left;
-                padding-right: 10%;
-            }
-            button{
-                padding: 0.7%;
-                width: 35%;
-                border-color: rgba(240, 248, 255, 0);
-                clip-path: polygon(0 0, 88% 0, 98% 100%, 0% 100%);
-                border-radius: 5px;
-                
-
-            }
+          
+            
 
 
         }
@@ -126,7 +121,7 @@ body{
             width: 60%;
             height: 625px;
             margin-top: 2.5%;
-            
+            margin-bottom: 10%;
            
             position:absolute;
             float: right;
@@ -143,108 +138,137 @@ body{
 
         }
         .contactform{
-            width: 100%;
-            height: 83%;
-            
+            width: 70%;
+            height: 65%;
+            background-color: rgba(221, 221, 221, 0.492);
+            margin-left: 15%;
+            margin-right: 25%;
+            margin-top:4%;
+            border-radius: 5px 5px 5px 5px;
             position: absolute;
+
+            .uitleg{
+                float: left;
+               
+                width: 50%;
+                height: 100%;
+                h2{
+                    margin-top: 15%;
+                    margin-left: 10%;
+                    font-weight: 900;
+                    
+                }
+                p{
+                    margin-top: 5%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    font-weight: 500;
+                }
+            }
+            
+            form{
+                float: right;
+                 margin-top: 4%;
+                margin-right: 6%;
+                width: 40%;
+
+                input{
+                    float: left;
+                    width: 100%;
+                    border: solid 2px black;
+                   
+                   
+                    
+                }
+                textarea{
+                    height: 100px;
+                    float: left;
+                    width: 100%;
+                    border: solid 2px black;
+                }
+               
+
+
+            }
+           
 
     }
 
            
        
     }
-    .baas_intro{
-        width: 100%;
-        height: 500px;
-       
-        
+     
+   
 
-        .baas_text{
-width: 50%;
+}
+.baas_intro{
+    width: 100%;
+    height: 500px;
+   //margin-top: 10%;
+   margin-bottom: 4%;
+  
+   
+
+   .baas_text{
+width: 60%;
 height: 100%;
 float: left;
 padding: 7%;
-padding-left: 16%;
+padding-left: 20%;
 background-color: #0dcaf032;
-        }
-        .baas_image{
-width: 50%;
+   }
+   .baas_image{
+width: 40%;
 height: 100%;
 float: right;
+padding-left: 0%;
 background-color: #0dcaf032;
-        }
-        .profiel_image{
-            width: 50%;
-            height: 100%;
-            background-image: url(../img/serge-groot.png)
-        }
-    }
+   }
+   .profiel_image{
+       width: 50%;
+       height: 100%;
+       background-image: url(../img/serge-groot.png)
+   }
+}
 
-    .footerdenk{
-        width: 100%;
-        height: 400px;
-        background-color: black;
+.meerinfo{
+    width: 100%;
+    height: 150vh;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+       
+        padding: 10px;
+        height: 100%;
+        column-gap: 5%;
+        row-gap: 5%;
         
-    }
+      }
+      .grid-item {
+        border-radius: 5px 5px 5px 5px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 5px solid rgba(187, 50, 50, 0.8);
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
 
-   
 
+        p{
+            padding:  5%;
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 22px;
+            color: #ffff;
+        }
 
-
-  
+        
+      }
 }
 
 
-
-// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-// $color1 :rgb(236, 108, 22);
-
-// body{
-//     background-color: blue;
-//     position: relative; 
-//     margin: 0;
-//     padding: 0;
-//     width: 100%;
-   
-
-//     .home_dex{
-//         margin: 0;
-//         padding: 0;
-//         height: 100vh;
-//         width: 100%;
-//         position: relative;
+  
 
 
-//         header{
-            
-//             margin-top: 2%;
-//             width: 90%;
-//             background-color: $color1;
-            
-//             margin-left: 5%;
-//             border-radius: 5px 5px 5px 5px;
-//             margin-bottom: 20px;
-//             border: 5px solid $color1;
 
-//             .header_dex{
-//                 height: 100%;
-//                 width: 100%;
-//                  clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
-//                 clip-path: ellipse(91% 71% at 8% 67%);
-//                 border-radius: 5px 0px 0px 5px;
-//                 background-color: yellow;
-                
-//                a{
-//                     font-size: 52px;
-//                     font-family: 'Roboto', sans-serif;
-//                     text-decoration: underline;
-//                     color: black;
-//                 } 
-//             }
-           
-            
-//         }
 
-//     }
-// }

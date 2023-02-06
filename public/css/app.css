@@ -30,6 +30,7 @@ body .home_dex header h1 .logo {
   float: left;
 }
 body .home_dex header .navlink {
+  margin-top: 90%;
   padding-bottom: 0%;
   font-size: 22px;
   text-decoration: none;
@@ -70,24 +71,14 @@ body .home_dex .entree_balk3 {
   float: left;
   margin-bottom: 1%;
   height: 144.09px;
-}
-body .home_dex .entree_balk3 h3 {
-  float: left;
-  padding-right: 10%;
-}
-body .home_dex .entree_balk3 button {
-  padding: 0.7%;
-  width: 35%;
-  border-color: rgba(240, 248, 255, 0);
-  -webkit-clip-path: polygon(0 0, 88% 0, 98% 100%, 0% 100%);
-          clip-path: polygon(0 0, 88% 0, 98% 100%, 0% 100%);
-  border-radius: 5px;
+  margin-bottom: 4%;
 }
 body .home_dex .home_img {
   margin-left: 32.5%;
   width: 60%;
   height: 625px;
   margin-top: 2.5%;
+  margin-bottom: 10%;
   position: absolute;
   float: right;
   -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 62% 100%);
@@ -100,35 +91,100 @@ body .home_dex .home_img {
   background-size: cover;
 }
 body .home_dex .contactform {
-  width: 100%;
-  height: 83%;
+  width: 70%;
+  height: 65%;
+  background-color: rgba(221, 221, 221, 0.492);
+  margin-left: 15%;
+  margin-right: 25%;
+  margin-top: 4%;
+  border-radius: 5px 5px 5px 5px;
   position: absolute;
 }
-body .baas_intro {
+body .home_dex .contactform .uitleg {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+body .home_dex .contactform .uitleg h2 {
+  margin-top: 15%;
+  margin-left: 10%;
+  font-weight: 900;
+}
+body .home_dex .contactform .uitleg p {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 500;
+}
+body .home_dex .contactform form {
+  float: right;
+  margin-top: 4%;
+  margin-right: 6%;
+  width: 40%;
+}
+body .home_dex .contactform form input {
+  float: left;
+  width: 100%;
+  border: solid 2px black;
+}
+body .home_dex .contactform form textarea {
+  height: 100px;
+  float: left;
+  width: 100%;
+  border: solid 2px black;
+}
+
+.baas_intro {
   width: 100%;
   height: 500px;
+  margin-bottom: 4%;
 }
-body .baas_intro .baas_text {
-  width: 50%;
+.baas_intro .baas_text {
+  width: 60%;
   height: 100%;
   float: left;
   padding: 7%;
-  padding-left: 16%;
+  padding-left: 20%;
   background-color: rgba(13, 202, 240, 0.1960784314);
 }
-body .baas_intro .baas_image {
-  width: 50%;
+.baas_intro .baas_image {
+  width: 40%;
   height: 100%;
   float: right;
+  padding-left: 0%;
   background-color: rgba(13, 202, 240, 0.1960784314);
 }
-body .baas_intro .profiel_image {
+.baas_intro .profiel_image {
   width: 50%;
   height: 100%;
   background-image: url(../img/serge-groot.png);
 }
-body .footerdenk {
+
+.meerinfo {
   width: 100%;
-  height: 400px;
-  background-color: black;
+  height: 150vh;
+}
+.meerinfo .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  height: 100%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  row-gap: 5%;
+}
+.meerinfo .grid-item {
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 5px solid rgba(187, 50, 50, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.meerinfo .grid-item p {
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 22px;
+  color: white;
 }/*# sourceMappingURL=app.css.map */
