@@ -12,11 +12,11 @@
 </div> --}}
 
 <div class="home_dex bg-white" >
-  <header class="bg-primary mt-4 ps-4 pb-5 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
-    <a href="/  " class=" navlink me-5  ps-5 text-white">Home</a>
-    <a href="#over-ons " class="navlink me-5  ps-5 text-white">over ons</a>
-    <a href="#login " class="navlink  me-5  ps-5 text-white">login</a>
-    <a href="#Aplicate " class="navlink me-5  ps-5 text-white">applicate</a>
+  <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
+    <a href="/  " class=" navlink ms-5 me-5  ps-5  ">Home</a>
+    <a href="#over-ons " class="navlink me-5  ps-5 ">Over ons</a>
+    <a href="#login " class="navlink  me-5  ps-5 ">Login</a>
+    <a href="#Aplicate " class="navlink me-5  ps-5 ">Applicate</a>
   </header>
  
   
@@ -67,30 +67,45 @@
     </div>
     <div class="meerinfo bg-dark  p-5 mt-5">
       <div class="grid-container  ">
-        <div class="grid-item border-info"><p class="text-white" >
+        <div class="grid-item border-info" id="text-1"><p class="text-white" >
           Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
           Suggesties:
           Zorg ervoor dat alle woorden goed gespeld zijn.
           Probeer andere zoektermen.
           Maak de zoektermen algemener.
+          Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:
+          Zorg ervoor dat alle woorden goed gespeld zijn.
           </p> </div>  
-        <div class="grid-item border-info"><p> img</p></div>
-        <div class="grid-item border-info"><p> img</p></div>
-        <div class="grid-item border-info "><p> Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+        <div class="grid-item-img-1 border-info"><p> <img class="img-1" src="../img/pexels-fauxels-.jpg" alt=""></p></div>
+        <div class="grid-item-img-1 border-info"><p> <img class="img-2" src="../img/pexels-nandhu.jpg" alt=""></p></div>
+        <div class="grid-item border-info  " id="text-2">
+          <p> Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
           Suggesties:
           Zorg ervoor dat alle woorden goed gespeld zijn.
           Probeer andere zoektermen.
-          Maak de zoektermen algemener.</p></div>  
-        <div class="grid-item border-info"><p> Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Maak de zoektermen algemener.
+          Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:
+          Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:</p></div>  
+          
+        <div class="grid-item border-info" id="text-1"><p> Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
+          Suggesties:
+          Zorg ervoor dat alle woorden goed gespeld zijn.
+          Probeer andere zoektermen.
+          Maak de zoektermen algemener.
+          Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
           Suggesties:
           Zorg ervoor dat alle woorden goed gespeld zijn.
           Probeer andere zoektermen.
           Maak de zoektermen algemener.</p></div>
-        <div class="grid-item border-info"><p>img</p></div>
+        <div class="grid-item-img-1 border-info"><p><img class="img-3" src="../img/pexels-steve-.jpg" alt=""></p></div>
         
         
        
       </div>
     </div>
-    {{-- <div class="footerdenk bg-info"></div> --}}
+    {{-- <div class="bg-white p-5"></div> --}}
+    <footer class=" p-5  bg-info" ></footer>
 @endsection

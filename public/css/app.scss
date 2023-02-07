@@ -10,10 +10,6 @@ body{
    background-color: #ffffff;
    
 
-    
-// .container{
-    
-
     .home_dex{
         margin: 0;
         padding: 0;
@@ -22,60 +18,46 @@ body{
         position: relative;
       
         header{
-            
             margin-top:0;
             width: 94%;
             clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
             margin-left: 5%;
             border-radius: 5px 0px 0px 5px;
-           margin-bottom: 20px;
-           height: 100px;
+            margin-bottom: 20px;
+            height: 100px;
            
-           h1{
-            //width: 20%;
-            
-            .logo{
-                font-size: 52px;
-                font-family: 'Righteous', cursive;
-                text-decoration: none;
-                float: left;
-                
+            h1{
+                .logo{
+                    font-size: 52px;
+                    font-family: 'Righteous', cursive;
+                    text-decoration: none;
+                    float: left;
+                }
             }
-            
-           }
-           .navlink{
-            margin-top: 90%;
-            padding-bottom: 0%;
-            font-size: 22px;
-            text-decoration: none;
-            //float: right;
 
-            a{
-                
+           .navlink{
+                font-size: 30px;
+                text-decoration: none;
+                color: #fff;
             }
-            
-        }
-            
-           
-        
+
+            .navlink:hover{
+                text-decoration: underline;
+            }
         }
         
         
         .entree_balk1{
-          margin-top: 2.5%;
+            margin-top: 2.5%;
             width: 95%;
             height: 150px;
             margin-left: 5%;
-            
             font-family: 'Righteous', cursive;
             clip-path: polygon(0 0, 25.5% 0, 35.5% 100%, 0% 100%);
             border-radius: 5px;
-           //z-index: 9999;
             float: left;
-            //flex-wrap: wrap;
-            //position: absolute;
-            
-        }
+            }
+
         .entree_balk2{
             margin-top: 4%;
             width: 95%;
@@ -85,13 +67,12 @@ body{
             clip-path: polygon(0 0, 40% 0, 51.5% 100%, 0% 100%);
             border-radius: 5px;
             float: left;
-            //z-index: 9999;
-            // flex-wrap: wrap;
-            //position: absolute;
+           
             p{
                 color: rgba(148, 163, 184);
             }
         }
+
         .entree_balk3{
             margin-top: 4%;
             width: 95%;
@@ -100,29 +81,17 @@ body{
             clip-path: polygon(0 0, 56% 0, 65.5% 100%, 0% 100%);
             border-radius: 5px;
             float: left;
-           //z-index: 9999;
-            //flex-wrap: wrap;
-            //position: absolute;
             margin-bottom: 1%;
             height: 144.09px;
             margin-bottom: 4%;
-           
-            
-            
-          
-            
-
-
         }
        
         .home_img{
-           
             margin-left:32.5%;
             width: 60%;
             height: 625px;
             margin-top: 2.5%;
             margin-bottom: 10%;
-           
             position:absolute;
             float: right;
             clip-path: polygon(0% 0, 100% 0, 100% 100%, 62% 100%);
@@ -132,11 +101,8 @@ body{
             background-position: left;
             background-repeat: no-repeat;
             background-size: cover;
-           
-          
-
-
         }
+
         .contactform{
             width: 70%;
             height: 65%;
@@ -149,15 +115,15 @@ body{
 
             .uitleg{
                 float: left;
-               
                 width: 50%;
                 height: 100%;
+                
                 h2{
                     margin-top: 15%;
                     margin-left: 10%;
-                    font-weight: 900;
-                    
+                    font-weight: 900; 
                 }
+
                 p{
                     margin-top: 5%;
                     margin-left: 10%;
@@ -168,107 +134,150 @@ body{
             
             form{
                 float: right;
-                 margin-top: 4%;
+                margin-top: 4%;
                 margin-right: 6%;
                 width: 40%;
 
                 input{
                     float: left;
                     width: 100%;
-                    border: solid 2px black;
-                   
-                   
-                    
+                    border: solid 2px rgb(114, 114, 114);
                 }
+
                 textarea{
                     height: 100px;
                     float: left;
                     width: 100%;
+                    border: solid 2px rgb(114, 114, 114);
+                }
+
+                .butto{
                     border: solid 2px black;
                 }
-               
-
-
             }
-           
+        }
 
-    }
-
-           
-       
     }
      
    
 
-}
-.baas_intro{
-    width: 100%;
-    height: 500px;
-   //margin-top: 10%;
-   margin-bottom: 4%;
-  
-   
 
-   .baas_text{
-width: 60%;
-height: 100%;
-float: left;
-padding: 7%;
-padding-left: 20%;
-background-color: #0dcaf032;
-   }
-   .baas_image{
-width: 40%;
-height: 100%;
-float: right;
-padding-left: 0%;
-background-color: #0dcaf032;
-   }
-   .profiel_image{
-       width: 50%;
-       height: 100%;
-       background-image: url(../img/serge-groot.png)
-   }
-}
-
-.meerinfo{
-    width: 100%;
-    height: 150vh;
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto ;
-       
-        padding: 10px;
-        height: 100%;
-        column-gap: 5%;
-        row-gap: 5%;
-        
-      }
-      .grid-item {
-        border-radius: 5px 5px 5px 5px;
-        background-color: rgba(255, 255, 255, 0);
-        border: 5px solid rgba(187, 50, 50, 0.8);
-        padding: 10px;
-        font-size: 30px;
-        text-align: center;
-
-
-        p{
-            padding:  5%;
-            padding-left: 10%;
-            padding-right: 10%;
-            font-size: 22px;
-            color: #ffff;
+    .baas_intro{
+        width: 100%;
+        height: 500px;
+    
+        .baas_text{
+                width: 60%;
+                height: 100%;
+                float: left;
+                padding: 7%;
+                padding-left: 20%;
+                background-color: #0dcaf032;
+            }
+        .baas_image{
+                width: 40%;
+                height: 100%;
+                float: right;
+                padding-left: 0%;
+                background-color: #0dcaf032;
         }
+        .profiel_image{
+            width: 50%;
+            height: 100%;
+            background-image: url(../img/serge-groot.png)
+        }
+    }
 
+    .meerinfo{
+        width: 100%;
+        height: 170vh;
+    
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto ;
+            padding: 10px;
+            height: 100%;
+            column-gap: 0%;
+            row-gap: 7%;
+            
+            #text-1{
+                border: solid 4px black;
+                border-top-style: solid;
+                border-right-style: none;
+                border-bottom-style: solid;
+                border-left-style: solid; 
+            }
         
-      }
+            #text-2{
+                border: solid 4px black;
+                border-top-style: solid;
+                border-right-style: solid;
+                border-bottom-style: solid;
+                border-left-style: none; 
+            }
+
+            .grid-item {
+                border-radius: 5px 5px 5px 5px;
+                background-color: rgba(255, 255, 255, 0);
+                padding: 10px;
+                font-size: 30px;
+
+                p{
+                    padding:  5%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    font-size: 22px;
+                    color: #ffff;
+                    text-align: start;
+                }
+            }
+
+            .grid-item-img-1 {
+                border-radius: 5px 5px 5px 5px;
+                background-color: rgba(255, 255, 255, 0);
+                padding: 10px;
+                font-size: 30px;
+                height: 400px;
+            
+                p{
+                    text-align: center;
+                    .img-1{
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        height: 40vh;
+                        border-radius: 10px;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-position: center; 
+                    }
+                    .img-2{
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        height: 40vh;
+                        border-radius: 10px;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-position: center; 
+                    }  
+
+                    .img-3{
+                        margin-bottom: 3%;
+                        margin-top: 3%;
+                        height: 40vh;
+                        border-radius: 10px;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-position: center; 
+                    }    
+                }
+            }
+        }
+    }
+
+    footer{
+        height: 200px;
+        width: 100%;
+    }
 }
-
-
-  
-
-
 
 

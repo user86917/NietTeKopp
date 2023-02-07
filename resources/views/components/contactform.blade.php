@@ -7,5 +7,5 @@
 
     <textarea class="rounded-1 mb-4 p-2  ps-3 pe-5" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input class=" rounded-1  mb-3 mt-1 p-2 text-light-center bg-dark text-white" type="submit" value="contact ons" ><br>
+    <input class="butto rounded-1  mb-3 mt-1 p-2 text-light-center bg-primary text-white" type="submit" value="contact ons" ><br>
 </form>

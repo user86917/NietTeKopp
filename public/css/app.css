@@ -30,10 +30,12 @@ body .home_dex header h1 .logo {
   float: left;
 }
 body .home_dex header .navlink {
-  margin-top: 90%;
-  padding-bottom: 0%;
-  font-size: 22px;
+  font-size: 30px;
   text-decoration: none;
+  color: #fff;
+}
+body .home_dex header .navlink:hover {
+  text-decoration: underline;
 }
 body .home_dex .entree_balk1 {
   margin-top: 2.5%;
@@ -125,21 +127,22 @@ body .home_dex .contactform form {
 body .home_dex .contactform form input {
   float: left;
   width: 100%;
-  border: solid 2px black;
+  border: solid 2px rgb(114, 114, 114);
 }
 body .home_dex .contactform form textarea {
   height: 100px;
   float: left;
   width: 100%;
+  border: solid 2px rgb(114, 114, 114);
+}
+body .home_dex .contactform form .butto {
   border: solid 2px black;
 }
-
-.baas_intro {
+body .baas_intro {
   width: 100%;
   height: 500px;
-  margin-bottom: 4%;
 }
-.baas_intro .baas_text {
+body .baas_intro .baas_text {
   width: 60%;
   height: 100%;
   float: left;
@@ -147,44 +150,97 @@ body .home_dex .contactform form textarea {
   padding-left: 20%;
   background-color: rgba(13, 202, 240, 0.1960784314);
 }
-.baas_intro .baas_image {
+body .baas_intro .baas_image {
   width: 40%;
   height: 100%;
   float: right;
   padding-left: 0%;
   background-color: rgba(13, 202, 240, 0.1960784314);
 }
-.baas_intro .profiel_image {
+body .baas_intro .profiel_image {
   width: 50%;
   height: 100%;
   background-image: url(../img/serge-groot.png);
 }
-
-.meerinfo {
+body .meerinfo {
   width: 100%;
-  height: 150vh;
+  height: 170vh;
 }
-.meerinfo .grid-container {
+body .meerinfo .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
   height: 100%;
-  -moz-column-gap: 5%;
-       column-gap: 5%;
-  row-gap: 5%;
+  -moz-column-gap: 0%;
+       column-gap: 0%;
+  row-gap: 7%;
 }
-.meerinfo .grid-item {
+body .meerinfo .grid-container #text-1 {
+  border: solid 4px black;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+body .meerinfo .grid-container #text-2 {
+  border: solid 4px black;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: none;
+}
+body .meerinfo .grid-container .grid-item {
   border-radius: 5px 5px 5px 5px;
   background-color: rgba(255, 255, 255, 0);
-  border: 5px solid rgba(187, 50, 50, 0.8);
   padding: 10px;
   font-size: 30px;
-  text-align: center;
 }
-.meerinfo .grid-item p {
+body .meerinfo .grid-container .grid-item p {
   padding: 5%;
   padding-left: 10%;
   padding-right: 10%;
   font-size: 22px;
   color: white;
+  text-align: start;
+}
+body .meerinfo .grid-container .grid-item-img-1 {
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  font-size: 30px;
+  height: 400px;
+}
+body .meerinfo .grid-container .grid-item-img-1 p {
+  text-align: center;
+}
+body .meerinfo .grid-container .grid-item-img-1 p .img-1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 40vh;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+body .meerinfo .grid-container .grid-item-img-1 p .img-2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 40vh;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+body .meerinfo .grid-container .grid-item-img-1 p .img-3 {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: 40vh;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+body footer {
+  height: 200px;
+  width: 100%;
 }/*# sourceMappingURL=app.css.map */
