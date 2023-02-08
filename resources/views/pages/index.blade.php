@@ -106,6 +106,19 @@
        
       </div>
     </div>
-    {{-- <div class="bg-white p-5"></div> --}}
+     <div class="slide bg-primary pt-5 pb-5">
+      <div class="row small mb-5">
+        <div class="imagegroup" style="animation-delay: 1s;">
+           <img src="https://picsum.photos/seed/3/342/180" alt="">
+           <img src="https://picsum.photos/seed/4/342/180" alt="">
+           <img src="https://picsum.photos/seed/5/342/180" alt="">
+           <img src="https://picsum.photos/seed/6/342/180" alt="">
+           <img src="https://picsum.photos/seed/7/342/180" alt="">
+           <img src="https://picsum.photos/seed/8/342/180" alt="">
+        </div>
+      </div>
+      
+    </div> 
+
     <footer class=" p-5  bg-info" ></footer>
 @endsection
