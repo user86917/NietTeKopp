@@ -1,17 +1,8 @@
 @extends('layout')
 @section('main')
-{{-- <div class="container"> --}}
-{{-- <div class="home_dex bg-white" >
-    <header > 
-       <div class="header_dex mt-4 ps-4 pb-3 pt-3 "><a class="text-dark " href="/">wholesale</a></div>
-    </header>
-    
-   
-  
-     
-</div> --}}
 
-<div class="home_dex bg-white" >
+
+<div class="home_dex bg-dark" >
   <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
     <a href="/  " class=" navlink ms-5 me-5  ps-5  ">Home</a>
     <a href="#over-ons " class="navlink me-5  ps-5 ">Over ons</a>
@@ -29,17 +20,13 @@
    <div class="home_img bg-primary ">
     {{-- nieuwe img zoeken --}}
    </div>
-   <div class="contactform ">
-    <div class="uitleg ">
-   <h2 class="text-primary " >Waar kunnen wij u mee helpen</h2>
-   <p class="text-black">Met onze telefonie krijg je de mogelijkheid om te bellen via je mobiel of met je laptop.
-    Bepaal zelf op welke dagen en tijden jouw klanten je telefonisch kunnen bereiken. <br>
-    Verwelkom je klanten met een handige welkomstboodschap of keuzemenu.</p>
-  
-
+   
+<div class="aanmelding">
+  <div><h3 class=" mt-5 " >Nu Aanmelden</h3></div>
+  <div>
+    @include('components.aanmeldform')
   </div>
-   @include('components.contactform')
-
+</div>
    
 </div>
 
@@ -52,19 +39,7 @@
 
 </div> 
 
-<div class="baas_intro bg-white  ">
 
-  <div class="baas_text ">
-      <h3 class="text-dark">Optimaal bereikbaar zijn op je </h3>
-      <h3 class="text-primary">vaste zakelijke nummer</h3>
-      <p>Zakelijk bereikbaar zijn voor een gigantisch voordelige prijs, dat is waar <br> wij ons op focussen. Voor slechts € 9,95 per jaar ben je al bereikbaar op <br> een eigen nummer. Ons portaal biedt alle mogelijkheden, zonder <br> technische kennis.</p>
-  </div>
-
-      <div class="baas_image  ">
-        <div class="profiel_image  "></div>
-      </div>
-
-    </div>
     <div class="meerinfo bg-dark  p-5 mt-5">
       <div class="grid-container  ">
         <div class="grid-item border-info" id="text-1"><p class="text-white" >
@@ -106,19 +81,80 @@
        
       </div>
     </div>
-     <div class="slide bg-primary pt-5 pb-5">
-      <div class="row small mb-5">
-        <div class="imagegroup" style="animation-delay: 1s;">
-           <img src="https://picsum.photos/seed/3/342/180" alt="">
-           <img src="https://picsum.photos/seed/4/342/180" alt="">
-           <img src="https://picsum.photos/seed/5/342/180" alt="">
-           <img src="https://picsum.photos/seed/6/342/180" alt="">
-           <img src="https://picsum.photos/seed/7/342/180" alt="">
-           <img src="https://picsum.photos/seed/8/342/180" alt="">
-        </div>
-      </div>
-      
-    </div> 
 
-    <footer class=" p-5  bg-info" ></footer>
+<div class="wrapper bg-info mt-5 mb-5">
+    <div class="slider bg-info  ">
+       
+          <div class="slide">
+              <img src="../img/logo1.webp" height="150" width="300" alt="" >
+              <img src="../img/logo2.png" height="150" width="300" alt="" >
+
+               <img src="../img/logo3.jpg" height="150" width="300" alt="" >
+               <img src="../img/logo4.jpg" height="150" width="300" alt="" >
+               <img src="../img/logo5.jpg" height="150" width="300" alt="" >
+               <img src="../img/logo6.jpg" height="150" width="300" alt="" >
+               <img src="../img/logo7.png" height="150" width="300" alt="" >
+          </div>
+
+          <div class="slide">
+            <img src="../img/logo1.webp" height="150" width="300" alt="" >
+            <img src="../img/logo2.png" height="150" width="300" alt="" >
+
+             <img src="../img/logo3.jpg" height="150" width="300" alt="" >
+             <img src="../img/logo4.jpg" height="150" width="300" alt="" >
+             <img src="../img/logo5.jpg" height="150" width="300" alt="" >
+             <img src="../img/logo6.jpg" height="150" width="300" alt="" >
+             <img src="../img/logo7.png" height="150" width="300" alt="" >
+        </div>
+       
+    </div>
+  </div>
+
+
+
+  <div class="containercontact bg-dark"  >
+    <div class="contactform ">
+      <div class="uitleg ">
+          <h2 class="text-info " >Waar kunnen wij u mee helpen</h2>
+          <p class="text-black">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veritatis quod suscipit architecto aliquid sunt labore provident magni cum, repellat quibusdam dolor illum numquam eaque obcaecati maxime explicabo temporibus optio?
+          </p><p class="text-black"> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus voluptatem sit, molestiae est voluptatum dignissimos iste id, deleniti vero veritatis sequi perspiciatis. Ullam sapiente distinctio dicta autem maiores exercitationem.
+          </p>
+      </div> 
+      @include('components.contactform')
+    </div>
+  </div>
+
+<footer class=" p-5  bg-dark" >
+  <div class="listcontainer">
+  <div class="list1 border-info">
+    <ul>
+      <li>Zakelijk bellen</li>
+      <li>De tarieven</li>
+      <li>Alle functies</li>
+      <li>Voor ZZP-ers</li>
+      <li>Reseller worden</li>
+    </ul>
+  </div>
+  <div class="list2 border-info">
+    <ul>
+      <li>Zakelijk bellen</li>
+      <li>De tarieven</li>
+      <li>Alle functies</li>
+      <li>Voor ZZP-ers</li>
+      <li>Reseller worden</li>
+    </ul>
+  </div>
+  <div class="list3 border-info">
+    <ul>
+      <li>Zakelijk bellen</li>
+      <li>De tarieven</li>
+      <li>Alle functies</li>
+      <li>Voor ZZP-ers</li>
+      <li>Reseller worden</li>
+    </ul>
+  </div>
+</div>
+</footer>
 @endsection

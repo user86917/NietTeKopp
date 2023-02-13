@@ -24,7 +24,7 @@
 
     
 </head>
-<body class=" bg-white" >
+<body class=" bg-dark" >
     @include('components.navbar')
     @yield('main')
 </body>

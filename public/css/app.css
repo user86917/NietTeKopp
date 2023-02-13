@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 body {
+  align-items: center;
+  justify-content: center;
   position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #ffffff;
 }
 body .home_dex {
   margin: 0;
@@ -43,8 +44,8 @@ body .home_dex .entree_balk1 {
   height: 150px;
   margin-left: 5%;
   font-family: "Righteous", cursive;
-  -webkit-clip-path: polygon(0 0, 25.5% 0, 35.5% 100%, 0% 100%);
-          clip-path: polygon(0 0, 25.5% 0, 35.5% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 26% 0, 35.5% 100%, 0% 100%);
+          clip-path: polygon(0 0, 26% 0, 35.5% 100%, 0% 100%);
   border-radius: 5px;
   float: left;
 }
@@ -92,51 +93,15 @@ body .home_dex .home_img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .home_dex .contactform {
-  width: 70%;
-  height: 65%;
-  background-color: rgba(221, 221, 221, 0.492);
-  margin-left: 15%;
-  margin-right: 25%;
-  margin-top: 4%;
-  border-radius: 5px 5px 5px 5px;
+body .home_dex .aanmelding {
+  background-color: rgba(255, 255, 255, 0.468);
+  width: 60%;
+  height: 560px;
   position: absolute;
-}
-body .home_dex .contactform .uitleg {
-  float: left;
-  width: 50%;
-  height: 100%;
-}
-body .home_dex .contactform .uitleg h2 {
-  margin-top: 15%;
-  margin-left: 10%;
-  font-weight: 900;
-}
-body .home_dex .contactform .uitleg p {
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-weight: 500;
-}
-body .home_dex .contactform form {
-  float: right;
+  margin-left: 8%;
   margin-top: 4%;
-  margin-right: 6%;
-  width: 40%;
-}
-body .home_dex .contactform form input {
-  float: left;
-  width: 100%;
-  border: solid 2px rgb(114, 114, 114);
-}
-body .home_dex .contactform form textarea {
-  height: 100px;
-  float: left;
-  width: 100%;
-  border: solid 2px rgb(114, 114, 114);
-}
-body .home_dex .contactform form .butto {
-  border: solid 2px black;
+  border-radius: 5px;
+  display: flex;
 }
 body .baas_intro {
   width: 100%;
@@ -240,42 +205,150 @@ body .meerinfo .grid-container .grid-item-img-1 p .img-3 {
   background-attachment: fixed;
   background-position: center;
 }
-body .slide {
+body .containercontact {
+  width: 100%;
+  height: 70vh;
+}
+body .containercontact .contactform {
+  width: 80%;
+  height: 90%;
+  background-color: rgba(221, 221, 221, 0.422);
+  margin-left: 10%;
+  margin-right: 25%;
+  margin-top: 5%;
+  border-radius: 5px 5px 5px 5px;
+}
+body .containercontact .contactform .uitleg {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+body .containercontact .contactform .uitleg h2 {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-weight: 900;
+}
+body .containercontact .contactform .uitleg p {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 500;
+}
+body .containercontact .contactform form {
+  float: right;
+  margin-top: 2%;
+  margin-right: 6%;
+  width: 40%;
+}
+body .containercontact .contactform form input {
+  float: left;
+  width: 100%;
+  border: solid 2px rgb(114, 114, 114);
+}
+body .containercontact .contactform form textarea {
+  height: 100px;
+  float: left;
+  width: 100%;
+  border: solid 2px rgb(114, 114, 114);
+}
+body .containercontact .contactform form .butto {
+  border: solid 2px rgb(114, 114, 114);
+}
+body .wrapper {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .slider {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  overflow: hidden;
+}
+body .wrapper .slider .slide {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  animation: slideshow 30s linear infinite;
+}
+body .wrapper .slider .slide .slide img {
   height: 300px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
+  padding: 0 30px 0 35px;
 }
-body .slide .row {
-  display: flex;
-  overflow: hidden;
+body .wrapper .slider .slide img {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 25px;
 }
-body .slide .imagegroup {
-  display: flex;
-  width: 100%;
-}
-body .slide .imagegroup img {
-  flex-shrink: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border: 3px solid rgb(148, 163, 184);
-}
-body .slide .imagegroup {
-  animation: travel 20s ease-in-out infinite;
-}
-@keyframes travel {
+@keyframes slideshow {
   0% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(-100%, 0, 0);
+    transform: translateX(0);
   }
   100% {
-    transform: translate3d(0, 0, 100%);
+    transform: translateX(-100%);
   }
 }
+body .wrapper .slider::before, body .wrapper .slider::after {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  content: "";
+  z-index: 2;
+}
+body .wrapper .slider::before .slider::before, body .wrapper .slider::after .slider::before {
+  left: 0;
+  top: 0;
+}
+body .wrapper .slider::before .slider::after, body .wrapper .slider::after .slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
 body footer {
-  height: 200px;
+  height: 400px;
   width: 100%;
+}
+body footer .listcontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  padding-left: 9%;
+}
+body footer .listcontainer .list1 {
+  text-align: left;
+  height: 100%;
+  width: 30%;
+  border: solid 5px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
+  color: white;
+}
+body footer .listcontainer .list2 {
+  text-align: left;
+  height: 100%;
+  width: 30%;
+  color: white;
+}
+body footer .listcontainer .list3 {
+  text-align: left;
+  height: 100%;
+  width: 30%;
+  border: solid 5px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
+  color: white;
+}
+body footer .listcontainer ul {
+  margin-top: 15%;
+  list-style-type: none;
 }/*# sourceMappingURL=app.css.map */

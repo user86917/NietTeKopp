@@ -1,7 +1,9 @@
 <form class="">
     @csrf
    
-    <input class="  mb-2 rounded-1 mt-5 mb-4 p-2 ps-3 pe-5" type="text" name="username" placeholder="Voornaam en Achternaam"><br>
+    <input class="  mb-2 rounded-1 mt-5 mb-4 p-2 ps-3 pe-5" type="text" name="username" placeholder="Voornaam"><br>
+
+    <input class="  mb-2 rounded-1 mb-4 p-2 ps-3 pe-5" type="text" name="username" placeholder="Achternaam"><br>
 
     <input class=" mb-2 rounded-1  mb-4 p-2 ps-3 pe-5"type="password" name="password" placeholder="Email"><br>
 
