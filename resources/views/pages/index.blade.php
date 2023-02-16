@@ -4,7 +4,7 @@
 
 <div class="home_dex bg-dark" >
   <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
-    <a href="/  " class=" navlink ms-5 me-5  ps-5  ">Home</a>
+    <a href="/  " class=" navlink mb-1 ms-5 me-5  ps-5  ">Home</a>
     <a href="#over-ons " class="navlink me-5  ps-5 ">Over ons</a>
     <a href="#login " class="navlink  me-5  ps-5 ">Login</a>
     <a href="#Aplicate " class="navlink me-5  ps-5 ">Applicate</a>
@@ -12,23 +12,35 @@
  
   
  <div class="entree_balk1  pt-5  bg-info"><h1 class="text-white ps-5 " ></h1></div>
- <div class="entree_balk2  px-4 pt-4 bg-primary "><h3 class="ps-4 text-white"></h3><p class="ps-4 text-dark">
+ <div class="entree_balk2   pt-4 bg-primary "><h3 class="ps-4 text-white"></h3><p class="ps-4 text-dark">
   
 </div>
- <div class="entree_balk3 px-4 pb-5 pt-4   bg-info"><h3 class="ps-4 mt-4"></h3>  </div>
+ <div class="entree_balk3  pb-5 pt-4   bg-info"><h3 class="ps-4 mt-4"></h3>  </div>
 
    <div class="home_img bg-primary ">
     {{-- nieuwe img zoeken --}}
    </div>
    
-<div class="aanmelding">
-  <div><h3 class=" mt-5 " >Nu Aanmelden</h3></div>
-  <div>
-    @include('components.aanmeldform')
-  </div>
+  <div class="aanmelding1 ">
+
+    <div class="uitleg1 ms-3">
+      <h2 class="text-white mt-4" >Gemakelijk en snel aanmelden</h2>
+      <p class="text-white">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veritatis quod suscipit architecto aliquid sunt labore provident magni cum, repellat quibusdam dolor illum numquam eaque obcaecati maxime explicabo temporibus optio?
+      </p>
+      <p class="text-white"> 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus voluptatem sit, molestiae est voluptatum dignissimos iste id, deleniti vero veritatis sequi perspiciatis. Ullam sapiente distinctio dicta autem maiores exercitationem.
+      </p>
+    </div> 
+
+    <div class="me-5" >
+      @include('components.aanmeldform')
+    </div>
+
+  </div> 
 </div>
    
-</div>
+
 
 
 
@@ -116,9 +128,9 @@
     <div class="contactform ">
       <div class="uitleg ">
           <h2 class="text-info " >Waar kunnen wij u mee helpen</h2>
-          <p class="text-black">
+          <p class="text-white">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veritatis quod suscipit architecto aliquid sunt labore provident magni cum, repellat quibusdam dolor illum numquam eaque obcaecati maxime explicabo temporibus optio?
-          </p><p class="text-black"> 
+          </p><p class="text-white"> 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus voluptatem sit, molestiae est voluptatum dignissimos iste id, deleniti vero veritatis sequi perspiciatis. Ullam sapiente distinctio dicta autem maiores exercitationem.
           </p>
       </div> 

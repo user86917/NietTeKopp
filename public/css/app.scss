@@ -20,8 +20,8 @@ body{
       
         header{
             margin-top:0;
-            width: 94%;
-            clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
+            width: 95%;
+            clip-path: polygon(0 0, 79% 0, 95% 100%, 0% 100%);
             margin-left: 5%;
             border-radius: 5px 0px 0px 5px;
             margin-bottom: 20px;
@@ -37,14 +37,54 @@ body{
             }
 
            .navlink{
-                font-size: 30px;
+                font-size: 35px;
                 text-decoration: none;
                 color: #fff;
+
+                
             }
 
-            .navlink:hover{
-                text-decoration: underline;
-            }
+          
+            a {
+                background-image: linear-gradient(
+                  to right,
+                  #ffff,
+                  #fff 50%,
+                  #fff 50%
+                );
+                background-size: 200% 100%;
+                background-position: -100%;
+                display: inline-block;
+                padding: 5px 0;
+                position: relative;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: all 0.3s ease-in-out;
+              }
+              
+              a:before{
+                content: '';
+                background: #fff;
+                display: block;
+                position: absolute;
+                bottom: -3px;
+                left: 0;
+                width: 0;
+                height: 3px;
+                transition: all 0.3s ease-in-out;
+               
+              }
+              
+              a:hover {
+               background-position: 0;
+              }
+              
+              a:hover::before{
+                width: 100%;
+              }
+              
+              
+            
         }
         
         
@@ -88,7 +128,7 @@ body{
         }
        
         .home_img{
-            margin-left:32.5%;
+            margin-left:35.5%;
             width: 60%;
             height: 625px;
             margin-top: 2.5%;
@@ -104,19 +144,71 @@ body{
             background-size: cover;
         }
 
-        .aanmelding{
-            background-color: rgba(255, 255, 255, 0.468);
-            width: 60%;
+        .aanmelding1{
+            display:flex;
+            background-color: rgba(0, 0, 0, 0.37);
+           width: 80%;
             height: 560px;
-            position: absolute;
-           margin-left:8%;  
+           position: absolute;
+           margin-left:10%; 
+           margin-right: 10%; 
            margin-top: 4%;
            border-radius: 5px;
-           display:flex;
+           //padding-left: 100px;
+           //padding-right: 100px;
+           padding-top: 5%;
 
-          div{
+        
+           .uitleg1{
+                    float: left;
+                    width: 60%;
+                    height: 100%;
+                    
+                    
+                    h2{
+                        
+                        margin-left: 10%;
+                        font-weight: 900; 
+                    }
+
+                    p{
+                        margin-top: 5%;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        font-weight: 500;
+                    }
+           }
+          
+
+          
+           form{
+            
            
-          } 
+            height: 100%;
+            width: 150%;
+
+                input{
+                    float: left;
+                    width: 100%;
+                    border: solid 2px rgb(114, 114, 114);
+
+                    
+                }
+                .leftin{
+                    float: left;
+                    width: 45%;
+                }
+                .rithin{
+                    float: right;
+                    width: 45%;
+                    margin-bottom: 5%;
+                }
+
+            
+                .butto{
+                    border: solid 2px rgb(37, 37, 37);
+                }
+            }   
         }
 
        
@@ -125,31 +217,7 @@ body{
    
 
 
-    .baas_intro{
-        width: 100%;
-        height: 500px;
-    
-        .baas_text{
-                width: 60%;
-                height: 100%;
-                float: left;
-                padding: 7%;
-                padding-left: 20%;
-                background-color: #0dcaf032;
-            }
-        .baas_image{
-                width: 40%;
-                height: 100%;
-                float: right;
-                padding-left: 0%;
-                background-color: #0dcaf032;
-        }
-        .profiel_image{
-            width: 60%;
-            height: 100%;
-            background-image: url(../img/serge-groot.png)
-        }
-    }
+  
 
     .meerinfo{
         width: 100%;
@@ -250,7 +318,7 @@ body{
         .contactform{
             width: 80%;
             height: 90%;
-            background-color: rgba(221, 221, 221, 0.422);
+            background-color: rgba(122, 122, 122, 0.452);
             margin-left: 10%;
             margin-right: 25%;
             margin-top: 5%;
@@ -296,7 +364,7 @@ body{
                     }
 
                     .butto{
-                        border: solid 2px rgb(114, 114, 114);
+                        border: solid 2px rgb(37, 37, 37);
                     }
                 }
         }

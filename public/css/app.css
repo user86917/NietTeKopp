@@ -16,9 +16,9 @@ body .home_dex {
 }
 body .home_dex header {
   margin-top: 0;
-  width: 94%;
-  -webkit-clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
-          clip-path: polygon(0 0, 79% 0, 93% 100%, 0% 100%);
+  width: 95%;
+  -webkit-clip-path: polygon(0 0, 79% 0, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 79% 0, 95% 100%, 0% 100%);
   margin-left: 5%;
   border-radius: 5px 0px 0px 5px;
   margin-bottom: 20px;
@@ -31,12 +31,37 @@ body .home_dex header h1 .logo {
   float: left;
 }
 body .home_dex header .navlink {
-  font-size: 30px;
+  font-size: 35px;
   text-decoration: none;
   color: #fff;
 }
-body .home_dex header .navlink:hover {
-  text-decoration: underline;
+body .home_dex header a {
+  background-image: linear-gradient(to right, white, #fff 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+body .home_dex header a:before {
+  content: "";
+  background: #fff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+body .home_dex header a:hover {
+  background-position: 0;
+}
+body .home_dex header a:hover::before {
+  width: 100%;
 }
 body .home_dex .entree_balk1 {
   margin-top: 2.5%;
@@ -77,7 +102,7 @@ body .home_dex .entree_balk3 {
   margin-bottom: 4%;
 }
 body .home_dex .home_img {
-  margin-left: 32.5%;
+  margin-left: 35.5%;
   width: 60%;
   height: 625px;
   margin-top: 2.5%;
@@ -93,39 +118,53 @@ body .home_dex .home_img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .home_dex .aanmelding {
-  background-color: rgba(255, 255, 255, 0.468);
-  width: 60%;
+body .home_dex .aanmelding1 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.37);
+  width: 80%;
   height: 560px;
   position: absolute;
-  margin-left: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 4%;
   border-radius: 5px;
-  display: flex;
+  padding-top: 5%;
 }
-body .baas_intro {
-  width: 100%;
-  height: 500px;
-}
-body .baas_intro .baas_text {
-  width: 60%;
-  height: 100%;
+body .home_dex .aanmelding1 .uitleg1 {
   float: left;
-  padding: 7%;
-  padding-left: 20%;
-  background-color: rgba(13, 202, 240, 0.1960784314);
-}
-body .baas_intro .baas_image {
-  width: 40%;
-  height: 100%;
-  float: right;
-  padding-left: 0%;
-  background-color: rgba(13, 202, 240, 0.1960784314);
-}
-body .baas_intro .profiel_image {
   width: 60%;
   height: 100%;
-  background-image: url(../img/serge-groot.png);
+}
+body .home_dex .aanmelding1 .uitleg1 h2 {
+  margin-left: 10%;
+  font-weight: 900;
+}
+body .home_dex .aanmelding1 .uitleg1 p {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 500;
+}
+body .home_dex .aanmelding1 form {
+  height: 100%;
+  width: 150%;
+}
+body .home_dex .aanmelding1 form input {
+  float: left;
+  width: 100%;
+  border: solid 2px rgb(114, 114, 114);
+}
+body .home_dex .aanmelding1 form .leftin {
+  float: left;
+  width: 45%;
+}
+body .home_dex .aanmelding1 form .rithin {
+  float: right;
+  width: 45%;
+  margin-bottom: 5%;
+}
+body .home_dex .aanmelding1 form .butto {
+  border: solid 2px rgb(37, 37, 37);
 }
 body .meerinfo {
   width: 100%;
@@ -212,7 +251,7 @@ body .containercontact {
 body .containercontact .contactform {
   width: 80%;
   height: 90%;
-  background-color: rgba(221, 221, 221, 0.422);
+  background-color: rgba(122, 122, 122, 0.452);
   margin-left: 10%;
   margin-right: 25%;
   margin-top: 5%;
@@ -252,7 +291,7 @@ body .containercontact .contactform form textarea {
   border: solid 2px rgb(114, 114, 114);
 }
 body .containercontact .contactform form .butto {
-  border: solid 2px rgb(114, 114, 114);
+  border: solid 2px rgb(37, 37, 37);
 }
 body .wrapper {
   width: 100%;
