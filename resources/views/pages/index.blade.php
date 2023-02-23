@@ -4,10 +4,11 @@
 
 <div class="home_dex bg-dark" >
   <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
-    <a href="/  " class=" navlink mb-1 ms-5 me-5  ps-5  ">Home</a>
-    <a href="#over-ons " class="navlink me-5  ps-5 ">Over ons</a>
-    <a href="#login " class="navlink  me-5  ps-5 ">Login</a>
-    <a href="#Aplicate " class="navlink me-5  ps-5 ">Applicate</a>
+    <a href="/  " class=" navlink mb-1 ms-3 me-3  ps-5  ">Home</a>
+    <a href="#over_ons_chapter " class="navlink me-3  ps-5 ">Over ons</a>
+    <a href="#contact_chapter " class="navlink me-3  ps-5 ">Contact</a>
+    <a href="#login " class="navlink  me-3  ps-5 ">Login</a>
+    <a href="#Aplicate " class="navlink me-3  ps-5 ">Applicate</a>
   </header>
  
   
@@ -52,7 +53,7 @@
 </div> 
 
 
-    <div class="meerinfo bg-dark  p-5 mt-5">
+    <div id="over_ons_chapter" class="meerinfo bg-dark   p-5 mt-5">
       <div class="grid-container  ">
         <div class="grid-item border-info" id="text-1"><p class="text-white" >
           Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
@@ -94,8 +95,8 @@
       </div>
     </div>
 
-<div class="wrapper bg-info mt-5 mb-5">
-    <div class="slider bg-info  ">
+<div class="wrapper bg-info ">
+    <div class="slider bg-info   ">
        
           <div class="slide">
               <img src="../img/logo1.webp" height="150" width="300" alt="" >
@@ -124,7 +125,7 @@
 
 
 
-  <div class="containercontact bg-dark"  >
+  <div id="contact_chapter" class="containercontact bg-dark"  >
     <div class="contactform ">
       <div class="uitleg ">
           <h2 class="text-white " >Waar kunnen wij u mee helpen</h2>

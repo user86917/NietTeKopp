@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-$white : #ffffff;
+$color1 : white;
+$color2 : rgba(255, 255, 255, 0);
+$color3 : black;
+$color4 : rgb(114, 114, 114);
+$color5 : rgb(37, 37, 37);
+
 
 body{
     align-items: center;
@@ -39,7 +44,7 @@ body{
            .navlink{
                 font-size: 35px;
                 text-decoration: none;
-                color: #fff;
+                color: $color1;
 
                 
             }
@@ -48,9 +53,9 @@ body{
             a {
                 background-image: linear-gradient(
                   to right,
-                  #ffff,
-                  #fff 50%,
-                  #fff 50%
+                  $color1,
+                  $color1 50%,
+                  $color1 50%
                 );
                 background-size: 200% 100%;
                 background-position: -100%;
@@ -64,7 +69,7 @@ body{
               
               a:before{
                 content: '';
-                background: #fff;
+                background: $color1;
                 display: block;
                 position: absolute;
                 bottom: -3px;
@@ -147,16 +152,14 @@ body{
         .aanmelding1{
             display:flex;
             background-color: rgba(0, 0, 0, 0.37);
-           width: 80%;
+            width: 80%;
             height: 560px;
-           position: absolute;
-           margin-left:10%; 
-           margin-right: 10%; 
-           margin-top: 4%;
-           border-radius: 5px;
-           //padding-left: 100px;
-           //padding-right: 100px;
-           padding-top: 5%;
+            position: absolute;
+            margin-left:10%; 
+            margin-right: 10%; 
+            margin-top: 4%;
+            border-radius: 5px;
+            padding-top: 5%;
 
         
            .uitleg1{
@@ -190,7 +193,7 @@ body{
                 input{
                     float: left;
                     width: 100%;
-                    border: solid 2px rgb(114, 114, 114);
+                    border: solid 2px $color4;
 
                     
                 }
@@ -206,7 +209,7 @@ body{
 
             
                 .butto{
-                    border: solid 2px rgb(37, 37, 37);
+                    border: solid 2px $color5;
                 }
             }   
         }
@@ -232,7 +235,7 @@ body{
             row-gap: 7%;
             
             #text-1{
-                border: solid 4px black;
+                border: solid 4px $color3;
                 border-top-style: solid;
                 border-right-style: none;
                 border-bottom-style: solid;
@@ -240,7 +243,7 @@ body{
             }
         
             #text-2{
-                border: solid 4px black;
+                border: solid 4px $color3;
                 border-top-style: solid;
                 border-right-style: solid;
                 border-bottom-style: solid;
@@ -249,7 +252,7 @@ body{
 
             .grid-item {
                 border-radius: 5px 5px 5px 5px;
-                background-color: rgba(255, 255, 255, 0);
+                background-color: $color2;
                 padding: 10px;
                 font-size: 30px;
 
@@ -258,14 +261,14 @@ body{
                     padding-left: 10%;
                     padding-right: 10%;
                     font-size: 22px;
-                    color: #ffff;
+                    color: $color1;
                     text-align: start;
                 }
             }
 
             .grid-item-img-1 {
                 border-radius: 5px 5px 5px 5px;
-                background-color: rgba(255, 255, 255, 0);
+                background-color: $color2;
                 padding: 10px;
                 font-size: 30px;
                 height: 400px;
@@ -310,8 +313,8 @@ body{
 
     .containercontact{
         width: 100%;
-        height: 70vh;
-
+        height: 100vh;
+       
 
     
 
@@ -323,6 +326,8 @@ body{
             margin-right: 25%;
             margin-top: 5%;
             border-radius: 5px 5px 5px 5px;
+            
+          
                 
 
                 .uitleg{
@@ -347,24 +352,24 @@ body{
                 form{
                     float: right;
                     margin-top: 2%;
-                    margin-right: 15%;
+                    margin-right: 12%;
                     width: 25%;
 
                     input{
                         float: left;
                         width: 100%;
-                        border: solid 2px rgb(114, 114, 114);
+                        border: solid 2px $color4;
                     }
 
                     textarea{
                         height: 100px;
                         float: left;
                         width: 100%;
-                        border: solid 2px rgb(114, 114, 114);
+                        border: solid 2px $color4;
                     }
 
                     .butto{
-                        border: solid 2px rgb(37, 37, 37);
+                        border: solid 2px $color5;
                     }
                 }
         }
@@ -373,6 +378,7 @@ body{
     
 
     .wrapper{
+        margin-top: 20%;
         width: 100%;
         height: 20vh;
         display: flex;
@@ -383,7 +389,7 @@ body{
             width: 100%;
             height: 200px;
             position: relative;
-            background-color:white;
+            background-color:$color1;
             box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
             display: flex;
             overflow: hidden;
@@ -457,14 +463,14 @@ body{
                 border-right-style: solid;
                 border-top-style: none;
                 border-bottom-style: none;
-                color: white;
+                color: $color1;
             }
 
             .list2{
                 text-align: left;
                 height: 100%;
                 width: 30%;
-                color: white;
+                color: $color1;
             
             }
 
@@ -477,7 +483,7 @@ body{
                 border-right-style: solid;
                 border-top-style: none;
                 border-bottom-style: none;
-                color: white;
+                color: $color1;
             }
             
             ul{
