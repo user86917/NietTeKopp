@@ -4,7 +4,7 @@
 
 <div class="home_dex bg-dark" >
   <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
-    <a href="/  " class=" navlink mb-1 ms-3 me-3  ps-5  ">Home</a>
+   
     <a href="#over_ons_chapter " class="navlink me-3  ps-5 ">Over ons</a>
     <a href="#contact_chapter " class="navlink me-3  ps-5 ">Contact</a>
     <a href="#login " class="navlink  me-3  ps-5 ">Login</a>
