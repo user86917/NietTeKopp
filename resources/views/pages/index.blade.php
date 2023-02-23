@@ -127,7 +127,7 @@
   <div class="containercontact bg-dark"  >
     <div class="contactform ">
       <div class="uitleg ">
-          <h2 class="text-info " >Waar kunnen wij u mee helpen</h2>
+          <h2 class="text-white " >Waar kunnen wij u mee helpen</h2>
           <p class="text-white">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veritatis quod suscipit architecto aliquid sunt labore provident magni cum, repellat quibusdam dolor illum numquam eaque obcaecati maxime explicabo temporibus optio?
           </p><p class="text-white"> 

@@ -276,8 +276,8 @@ body .containercontact .contactform .uitleg p {
 body .containercontact .contactform form {
   float: right;
   margin-top: 2%;
-  margin-right: 6%;
-  width: 40%;
+  margin-right: 15%;
+  width: 25%;
 }
 body .containercontact .contactform form input {
   float: left;
