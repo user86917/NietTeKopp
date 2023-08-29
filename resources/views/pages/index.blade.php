@@ -58,7 +58,7 @@
         <div class="grid-item border-info" id="text-1"><p class="text-white" >
           Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
           Suggesties:
-          Zorg ervoor dat alle woorden goed gespeld zijn.
+          Zorg ervoor dat all woorden goed gespeld zijn.
           Probeer andere zoektermen.
           Maak de zoektermen algemener.
           Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd
