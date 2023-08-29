@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Damn! It's a nummber">
-    <title>WholeSale | Home</title>
+    <title>Niet te koop | Home</title>
 
     <!-- icon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">

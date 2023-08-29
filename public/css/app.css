@@ -172,12 +172,14 @@ body .meerinfo {
 }
 body .meerinfo .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   padding: 10px;
   height: 100%;
-  -moz-column-gap: 0%;
-       column-gap: 0%;
+  -moz-column-gap: 3%;
+       column-gap: 3%;
   row-gap: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 body .meerinfo .grid-container #text-1 {
   border: solid 4px black;
@@ -391,50 +393,4 @@ body footer .listcontainer .list3 {
 body footer .listcontainer ul {
   margin-top: 15%;
   list-style-type: none;
-}
-@media only screen and (max-width: 900px) {
-  body body .entree_balk1 {
-    margin-top: 2.5%;
-    width: 95%;
-    height: 150px;
-    margin-left: 5%;
-    font-family: "Righteous", cursive;
-    -webkit-clip-path: polygon(0 0, 26% 0, 77.5% 100%, 0% 100%);
-            clip-path: polygon(0 0, 26% 0, 77.5% 100%, 0% 100%);
-    border-radius: 5px;
-    float: left;
-  }
-  body body .entree_balk2 {
-    margin-top: 4%;
-    width: 95%;
-    height: 177.59px;
-    margin-left: 5%;
-    font-family: "Righteous", cursive;
-    -webkit-clip-path: polygon(0 0, 40% 0, 51.5% 100%, 0% 100%);
-            clip-path: polygon(0 0, 40% 0, 51.5% 100%, 0% 100%);
-    border-radius: 5px;
-    float: left;
-  }
-  body body .entree_balk2 p {
-    color: rgb(148, 163, 184);
-  }
-  body body .entree_balk3 {
-    margin-top: 4%;
-    width: 95%;
-    margin-left: 5%;
-    font-family: "Righteous", cursive;
-    -webkit-clip-path: polygon(0 0, 56% 0, 65.5% 100%, 0% 100%);
-            clip-path: polygon(0 0, 56% 0, 65.5% 100%, 0% 100%);
-    border-radius: 5px;
-    float: left;
-    margin-bottom: 1%;
-    height: 144.09px;
-    margin-bottom: 4%;
-  }
-  body body .home_img {
-    margin-left: 35.5%;
-    width: 0%;
-    height: 0px;
-    margin-top: 0%;
-  }
 }/*# sourceMappingURL=app.css.map */

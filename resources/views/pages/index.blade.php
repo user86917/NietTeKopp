@@ -3,7 +3,7 @@
 
 
 <div class="home_dex bg-dark" >
-  <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">WholeSale</a></h1>
+  <header class="bg-primary mt-4 ps-4 pb-1 pt-3"> <h1><a class="logo text-white " href="/">NietTeKoop</a></h1>
    
     <a href="#over_ons_chapter " class="navlink me-3  ps-5 ">Over ons</a>
     <a href="#contact_chapter " class="navlink me-3  ps-5 ">Contact</a>
@@ -53,7 +53,7 @@
 </div> 
 
 
-    <div id="over_ons_chapter" class="meerinfo bg-dark   p-5 mt-5">
+    <div id="over_ons_chapter" class="meerinfo bg-dark   p-5 mt-5 ">
       <div class="grid-container  ">
         <div class="grid-item border-info" id="text-1"><p class="text-white" >
           Je zoekbewerking - rljgodfvg - heeft geen overeenkomstige documenten opgeleverd

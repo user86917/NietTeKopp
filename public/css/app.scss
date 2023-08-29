@@ -228,11 +228,13 @@ body{
     
         .grid-container {
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto;
             padding: 10px;
             height: 100%;
-            column-gap: 0%;
+            column-gap: 3%;
             row-gap: 7%;
+            margin-left: 2%;
+            margin-right:2%;
             
             #text-1{
                 border: solid 4px $color3;
@@ -320,7 +322,7 @@ body{
 
         .contactform{
             width: 80%;
-            height: 90%;
+            height: 80%;
             background-color: rgba(122, 122, 122, 0.452);
             margin-left: 10%;
             margin-right: 25%;
@@ -423,7 +425,7 @@ body{
             width: 200px;
             position: absolute;
             content: "";
-            //background: linear-gradient(to right, white 0%, rgba(255,255,255,0) 100%);
+            
            
             z-index: 2;
 
@@ -492,70 +494,6 @@ body{
             }
         }    
     }
-
-
-    @media only screen and (max-width: 900px) {
-        body {
-          
-    
-            .entree_balk1{
-                margin-top: 2.5%;
-                width: 95%;
-                height: 150px;
-                margin-left: 5%;
-                font-family: 'Righteous', cursive;
-                clip-path: polygon(0 0, 26% 0, 77.5% 100%, 0% 100%);
-                border-radius: 5px;
-                float: left;
-                }
-    
-            .entree_balk2{
-                margin-top: 4%;
-                width: 95%;
-                height: 177.59px;
-                margin-left: 5%;
-                font-family: 'Righteous', cursive;
-                clip-path: polygon(0 0, 40% 0, 51.5% 100%, 0% 100%);
-                border-radius: 5px;
-                float: left;
-               
-                p{
-                    color: rgba(148, 163, 184);
-                }
-            }
-    
-            .entree_balk3{
-                margin-top: 4%;
-                width: 95%;
-                margin-left: 5%;
-                font-family: 'Righteous', cursive;
-                clip-path: polygon(0 0, 56% 0, 65.5% 100%, 0% 100%);
-                border-radius: 5px;
-                float: left;
-                margin-bottom: 1%;
-                height: 144.09px;
-                margin-bottom: 4%;
-            }
-           
-            .home_img{
-                margin-left:35.5%;
-                width: 0%;
-                height: 0px;
-                margin-top: 0%;
-                // margin-bottom: 00%;
-                // position:absolute;
-                // float: right;
-                // clip-path: polygon(0% 0, 100% 0, 100% 100%, 62% 100%);
-                // border-radius: 0px 5px 5px 0px;
-                // background-image: url(../img/cffe.jpg );
-                // overflow: hidden;
-                // background-position: left;
-                // background-repeat: no-repeat;
-                // background-size: cover;
-            }
-          
-        }
-      }
 }
 
 
